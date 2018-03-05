@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaWeb06_3.0_SSM_CRM:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaWeb06_3.0_SSM_CRM/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaWeb06_3.0_SSM_CRM" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
