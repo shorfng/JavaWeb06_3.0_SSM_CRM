@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface BaseDictService {
 
-	//查询
+	// 查询
 	public List<BaseDict> selectBaseDictListByCode(String code);
 }

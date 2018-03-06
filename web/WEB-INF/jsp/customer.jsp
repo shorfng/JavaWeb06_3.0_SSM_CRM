@@ -265,7 +265,7 @@
         <!-- /.row -->
         <div class="panel panel-default">
             <div class="panel-body">
-                <form class="form-inline" action="${pageContext.request.contextPath }/customer/list.action" method="get">
+                <form class="form-inline" action="${pageContext.request.contextPath }/customer/list.action" method="post">
 
                     <div class="form-group">
                         <label for="customerName">客户名称</label>

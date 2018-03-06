@@ -11,7 +11,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class BaseDictServiceImpl implements BaseDictService {
 
-
     @Autowired
     private BaseDictDao baseDictDao;
 
