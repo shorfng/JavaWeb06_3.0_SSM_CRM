@@ -30,6 +30,7 @@ gen
 
 .idea/inspectionProfiles/
 .idea/workspace.xml
+
 out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/META-INF/
 out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/WEB-INF/classes/com/loto/ssm/crm/mapper/BaseDictDao.xml
 out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/WEB-INF/classes/jdbc.properties
@@ -47,4 +48,5 @@ out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/fonts/
 out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/index.jsp
 out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/js/
 out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/tld/
+
 /web/WEB-INF/classes/
