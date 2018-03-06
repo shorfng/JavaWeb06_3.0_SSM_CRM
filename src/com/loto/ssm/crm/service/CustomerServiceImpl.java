@@ -45,4 +45,9 @@ public class CustomerServiceImpl implements CustomerService {
         }
         return page;
     }
+
+    // 通过ID查询客户
+    public Customer selectCustomerById(Integer id){
+        return customerDao.selectCustomerById(id);
+    }
 }

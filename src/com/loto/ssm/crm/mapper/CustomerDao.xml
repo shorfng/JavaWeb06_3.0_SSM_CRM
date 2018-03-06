@@ -43,4 +43,13 @@
         limit #{startRow},#{size}
     </select>
 
+    <!-- 通过ID查询客户 -->
+    <!-- public Customer selectCustomerById(Integer id); -->
+    <select id="selectCustomerById" parameterType="Integer" resultType="Customer">
+        select * from customer
+        <where>
+            cust_id = #{id}
+        </where>
+    </select>
+
 </mapper>

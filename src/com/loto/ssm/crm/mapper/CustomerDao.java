@@ -13,4 +13,7 @@ public interface CustomerDao {
 	// 分页结果集
 	public List<Customer> selectCustomerListByQueryVo(QueryVo vo);
 
+    // 通过ID查询客户
+    public Customer selectCustomerById(Integer id);
+
 }
