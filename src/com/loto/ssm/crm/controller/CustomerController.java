@@ -73,4 +73,12 @@ public class CustomerController {
         customerService.updateCustomerById(customer);
         return "OK";
     }
+
+    // 删除客户
+    @RequestMapping(value = "/customer/delete.action")
+    public @ResponseBody
+    String delete(Integer id) {
+        customerService.deleteCustomerById(id);
+        return "OK";
+    }
 }

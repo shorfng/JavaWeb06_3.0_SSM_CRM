@@ -55,4 +55,9 @@ public class CustomerServiceImpl implements CustomerService {
     public void updateCustomerById(Customer customer){
         customerDao.updateCustomerById(customer);
     }
+
+    // 通过ID删除客户
+    public void deleteCustomerById(Integer id){
+        customerDao.deleteCustomerById(id);
+    }
 }

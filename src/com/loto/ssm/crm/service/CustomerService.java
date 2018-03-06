@@ -15,4 +15,6 @@ public interface CustomerService {
 	// 通过ID修改客户
 	public void updateCustomerById(Customer customer);
 
+	// 通过ID删除客户
+	public void deleteCustomerById(Integer id);
 }

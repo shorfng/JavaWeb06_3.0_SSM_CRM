@@ -69,4 +69,9 @@
         </where>
     </update>
 
+    <!-- 通过ID删除客户 -->
+    <!-- public void deleteCustomerById(Integer id); -->
+    <delete id="deleteCustomerById" parameterType="Integer">
+        delete from customer where cust_id = #{value}
+    </delete>
 </mapper>
