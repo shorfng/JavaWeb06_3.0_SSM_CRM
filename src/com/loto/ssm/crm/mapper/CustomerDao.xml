@@ -52,4 +52,21 @@
         </where>
     </select>
 
+    <!-- 通过ID修改客户 -->
+    <!-- public void updateCustomerById(Customer customer); -->
+    <update id="updateCustomerById" parameterType="Customer">
+        update customer
+        <set>
+            <if test="cust_name != null">
+                cust_name = #{cust_name},
+            </if>
+            <if test="cust_linkman != null">
+                cust_linkman = #{cust_linkman}
+            </if>
+        </set>
+        <where>
+            cust_id = #{cust_id}
+        </where>
+    </update>
+
 </mapper>

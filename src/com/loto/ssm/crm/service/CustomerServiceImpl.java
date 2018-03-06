@@ -50,4 +50,9 @@ public class CustomerServiceImpl implements CustomerService {
     public Customer selectCustomerById(Integer id){
         return customerDao.selectCustomerById(id);
     }
+
+    // 通过ID修改客户
+    public void updateCustomerById(Customer customer){
+        customerDao.updateCustomerById(customer);
+    }
 }

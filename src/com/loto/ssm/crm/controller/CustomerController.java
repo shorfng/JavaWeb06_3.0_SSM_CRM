@@ -62,7 +62,15 @@ public class CustomerController {
     // 去修改页面，回显数据
     @RequestMapping(value = "/customer/edit.action")
     public @ResponseBody
-    Customer edit(Integer id){
+    Customer edit(Integer id) {
         return customerService.selectCustomerById(id);
+    }
+
+    // 保存客户修改的信息
+    @RequestMapping(value = "/customer/update.action")
+    public @ResponseBody
+    String update(Customer customer) {
+        customerService.updateCustomerById(customer);
+        return "OK";
     }
 }

@@ -16,4 +16,7 @@ public interface CustomerDao {
     // 通过ID查询客户
     public Customer selectCustomerById(Integer id);
 
+    // 通过ID修改客户
+    public void updateCustomerById(Customer customer);
+
 }
