@@ -19,3 +19,32 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+.idea/inspectionProfiles/
+.idea/workspace.xml
+out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/META-INF/
+out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/WEB-INF/classes/com/loto/ssm/crm/mapper/BaseDictDao.xml
+out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/WEB-INF/classes/jdbc.properties
+out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/WEB-INF/classes/log4j.properties
+out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/WEB-INF/classes/mybatis/
+out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/WEB-INF/classes/resource.properties
+out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/WEB-INF/classes/spring/
+out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/WEB-INF/jsp/
+out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/WEB-INF/lib/
+out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/WEB-INF/tld/
+out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/WEB-INF/utils/
+out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/WEB-INF/web.xml
+out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/css/
+out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/fonts/
+out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/index.jsp
+out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/js/
+out/artifacts/JavaWeb06_3_0_SSM_CRM_war_exploded/tld/
+/web/WEB-INF/classes/
